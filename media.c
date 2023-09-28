@@ -1,22 +1,36 @@
 #include <stdio.h>
-
 #include <stdlib.h>
 
 int main () {
+    int n = 0;
 
-    float nt1 = 0; 
-    float nt2 = 0;
-    float m = 0; 
+    printf ("-----------------------------------------------------------------------------------------------------------------------\n");
+    printf ("PARA SABER SE O NUMERO DIGITADO E MAIOR, MENOR OU IGUAL A 10. \n");
 
-    printf("Digite sua primeira nota: ");
-    scanf("%f", &nt1);
-
-    printf("Digite sua segunda nota: ");
-    scanf("%f", &nt2);
-   
-    m = (nt1+nt2)/2;
-
-    printf ("Media: %2.f", m);
+      printf ("------------------------------------------------------------------------------------------------------------------------\n");
     
+    printf ("\n");
+    printf ("Digite um numero:\n");
+    scanf ("%d", &n);
+
+    system("cls || clear");
+    
+    printf ("===================================================== RESULTADO ========================================================\n");
+    
+    if (n > 10)
+    {
+        printf("O numero %d e maior que 10. \n", n); 
+    }
+    else if (n == 10)
+    {
+        printf("O numero %d e igual a 10.", n);
+    }
+    else
+    {
+        printf("O numero %d e menor que 10. \n",n);
+    }
+
+    printf ("========================================================================================================================\n");
+   
     return 0;
 }
