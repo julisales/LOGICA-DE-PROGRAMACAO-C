@@ -6,7 +6,7 @@
 int main () {
     setlocale(LC_ALL, "portuguese");
 
-    char ls [250] = "testiculos@gmail.com";
+    char ls [250] = "maria";
     char ss [250] = "123456"; 
     char l [250];
     char s [250]; 
@@ -20,7 +20,7 @@ int main () {
 
    if (strcmp(l, ls) == 0 && strcmp(s, ss) == 0)
    {
-       printf ("Ol·! bem vindo a sua conta");
+       printf ("Ol√°! bem vindo a sua conta");
    }
    else
    {
