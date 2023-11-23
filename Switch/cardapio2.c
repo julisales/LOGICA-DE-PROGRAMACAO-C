@@ -9,19 +9,19 @@ int main()
     int codigo;
 
     printf ("-------------------------------------------------------------------- \n");
-    printf ("                          MENU DE OPÇÕES                           \n");
+    printf ("                          MENU DE OPÃ‡Ã•ES                           \n");
     printf ("-------------------------------------------------------------------- \n");
 
-    printf ("CÓDIGO                        PRATOS                          PREÇO \n");
+    printf ("CÃ“DIGO                        PRATOS                          PREÃ‡O \n");
     printf ("  1                          PICANHA                        R$25,00 \n");
     printf ("  2                          LASANHA                        R$20,00 \n");
     printf ("  3                         STROGONOFF                      R$18,00 \n");
     printf ("  4                       BIFE ACEBOLADO                    R$15,00 \n");
-    printf ("  5                        PÃO COM OVO                      R$5,00 \n");
+    printf ("  5                        PÃƒO COM OVO                      R$5,00 \n");
 
     printf ("\n");
 
-    printf ("Digite o código do prato desejado: ");
+    printf ("Digite o cÃ³digo do prato desejado: ");
     scanf ("%d", &codigo);
 
     system ("cls || clear");
@@ -49,12 +49,12 @@ int main()
         break;
     
     case 5 :
-        printf("O prato escolhido foi: Pão com ovo. \n");
+        printf("O prato escolhido foi: PÃ£o com ovo. \n");
         printf("Valor: R$5,00");
         break;
     
     default:
-        printf ("Código Inválido!");
+        printf ("CÃ³digo InvÃ¡lido!");
         break;
     }
     
