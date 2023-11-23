@@ -11,11 +11,11 @@ int main()
 
 
     printf("------------------------------------------------------\n");
-    printf("|                   MAÇÃ: R$1,30                     |\n");
+    printf("|                   MAÃ‡Ãƒ: R$1,30                     |\n");
     printf("|           ACIMA DE 12 UNIDADES: R$1,00             |\n");
     printf("------------------------------------------------------\n");
 
-    printf("Quantas maçãs você comprou? \n");
+    printf("Quantas maÃ§Ã£s vocÃª comprou? \n");
     scanf("%d", &maca);
 
     preco_u = 1.30;
@@ -33,7 +33,7 @@ int main()
         total = maca * preco_u;
     }
 
-    printf("O valor total a pagar é: %.2f", total);
+    printf("O valor total a pagar Ã©: %.2f", total);
 
     return 0;
 }
