@@ -12,12 +12,12 @@ int main ()
 	float soma, media;
 	char resultado [200];
 
-	printf("------------ CALCULADORA DE MÉDIA -------------\n");
+	printf("------------ CALCULADORA DE MÃ‰DIA -------------\n");
 	
 	for (i = 1; i <= 3; i++) {
 		do 
 		{
-			printf("Digite a %d° nota: ", i);
+			printf("Digite a %dÂ° nota: ", i);
 			scanf("%f",&nota);
 			
 		} while (nota < 0 || nota > 10);
@@ -31,20 +31,20 @@ int main ()
 	
 	if (media >= 7)
 	{
-		strcpy(resultado, "Você foi aprovado! :)");
+		strcpy(resultado, "VocÃª foi aprovado! :)");
 	}
 	
 	else if (media >= 5)
 	{
-		strcpy(resultado, "Você está em recuperação! :/");
+		strcpy(resultado, "VocÃª estÃ¡ em recuperaÃ§Ã£o! :/");
 	}
 	
 	else 
 	{
-		strcpy(resultado, "Você foi reprovado! :(");
+		strcpy(resultado, "VocÃª foi reprovado! :(");
 	}
 	
-	printf("Sua média foi: %.1f \n",media);
+	printf("Sua mÃ©dia foi: %.1f \n",media);
 	printf(resultado);
 
 	return 0;
