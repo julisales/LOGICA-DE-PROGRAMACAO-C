@@ -13,8 +13,8 @@ int main()
     scanf("%f", &valor);
 
     printf("Forma de pagamento \n");
-    printf("1- Pagamento à vista \n");
-    printf("2- Pagamento à prazo \n");
+    printf("1- Pagamento Ã  vista \n");
+    printf("2- Pagamento Ã  prazo \n");
 
     printf("Escolha forma de pagamento: ");
     scanf("%d", &pagamento);
@@ -27,7 +27,7 @@ int main()
         desconto = valor * 0.1;
         total = valor - desconto;
 
-        printf("Forma de pagamento: à vista \n");
+        printf("Forma de pagamento: Ã  vista \n");
         printf("Valor do produto: %.2f \n", valor);
         printf("Valor do desconto: %.2f \n", desconto);
         printf("Total a pagar: %.2f \n", total);
@@ -43,7 +43,7 @@ int main()
 
         if (parcelas > 6)
         {
-            printf("Número de parcelas acima do permitido! \n");
+            printf("NÃºmero de parcelas acima do permitido! \n");
             printf("Tente novamente... \n");
         }
 
@@ -53,15 +53,15 @@ int main()
         
         valor_parcelado = valor / parcelas;
 
-            printf("Forma de pagamento: à prazo \n");
-            printf("Número de parcelas: %d \n", parcelas);
+            printf("Forma de pagamento: Ã  prazo \n");
+            printf("NÃºmero de parcelas: %d \n", parcelas);
             printf("Valor por parcelas: %.2f \n", valor_parcelado);
-            printf("Total à prazo: %.2f \n", valor);
+            printf("Total Ã  prazo: %.2f \n", valor);
 
         break;
 
     default:
-        printf ("Opção Inválida!");
+        printf ("OpÃ§Ã£o InvÃ¡lida!");
         break;
     }
 
