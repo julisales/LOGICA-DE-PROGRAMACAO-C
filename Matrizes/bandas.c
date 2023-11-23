@@ -12,11 +12,11 @@ int main()
 
     for (i = 0; i < 3; i++)
     {
-        printf("Digite o nome da %dª banda: ", i + 1);
+        printf("Digite o nome da %dÂª banda: ", i + 1);
         gets(bandas[i]);
         for (j = 0; j < 5; j++)
         {
-            printf("Digite o nome do %dº integrante: ", j + 1);
+            printf("Digite o nome do %dÂº integrante: ", j + 1);
             gets(integrantes[i][j]);
         }
 
@@ -25,9 +25,9 @@ int main()
     }
 
     for (i = 0; i < 3; i++){
-        printf("%dª banda: %s \n", i + 1, bandas[i]);
+        printf("%dÂª banda: %s \n", i + 1, bandas[i]);
         for (j = 0; j < 5; j++){
-            printf("%dº integrante: %s \n", j + 1, integrantes[i][j]);
+            printf("%dÂº integrante: %s \n", j + 1, integrantes[i][j]);
         }
         printf("\n");
     }
