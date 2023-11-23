@@ -9,12 +9,12 @@ int main()
     float r, n1, n2;
     char op;
 
-    printf ("Digite o primeiro número: \n");
+    printf ("Digite o primeiro nÃºmero: \n");
     scanf ("%f", &n1);
-    printf ("Digite o segundo número: \n");
+    printf ("Digite o segundo nÃºmero: \n");
     scanf ("%f", &n2);
     fflush(stdin);
-    printf ("Digite a operação desejada (+ - * /): \n");
+    printf ("Digite a operaÃ§Ã£o desejada (+ - * /): \n");
     scanf ("%c", &op);
 
     switch (op)
@@ -36,7 +36,7 @@ int main()
         break;
     
     default:
-        printf ("Operação Inválida!");
+        printf ("OperaÃ§Ã£o InvÃ¡lida!");
         break;
     }
 
