@@ -8,7 +8,7 @@ int main()
 
     int i;
     
-    printf ("------------------------- NÚMEROS PARES DE 100 A 200 ------------------------- \n");
+    printf ("------------------------- NÃšMEROS PARES DE 100 A 200 ------------------------- \n");
 
     // Primeira forma
     for (i = 100; i <= 200; i+=2){
