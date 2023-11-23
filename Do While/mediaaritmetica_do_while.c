@@ -10,12 +10,12 @@ int main ()
     float soma, media;
 
 
-    printf("Digite os valores que deseja calcular a média aritmética \n");
+    printf("Digite os valores que deseja calcular a mÃ©dia aritmÃ©tica \n");
     printf("\n");
-    printf("Caso deseje parar e verificar a média aritmética, digite qualquer valor negativo \n");
+    printf("Caso deseje parar e verificar a mÃ©dia aritmÃ©tica, digite qualquer valor negativo \n");
 
     do{
-        printf("Digite o %d° número: ", i++);
+        printf("Digite o %dÂ° nÃºmero: ", i++);
         scanf("%d",&numero);
 
         if (numero > 0)
@@ -27,7 +27,7 @@ int main ()
 
     media = soma/contador;
 
-    printf("A média é: %.1f", media);
+    printf("A mÃ©dia Ã©: %.1f", media);
     
     return 0;
 }
