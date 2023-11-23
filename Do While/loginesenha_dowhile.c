@@ -17,7 +17,7 @@ int main()
 
     do{
     printf("---------------------------------------------------------------------\n");
-    printf("Escolha uma das opÁıes\n");
+    printf("Escolha uma das op√ß√µes\n");
     printf("1 - Login\n");
     printf("2 - Cadastro\n");
     scanf("%d",&sign);
@@ -28,7 +28,7 @@ int main()
         do
         {
 
-            printf("Usu·rio: ");
+            printf("Usu√°rio: ");
             gets(login);
 
             printf("Senha: ");
@@ -37,7 +37,7 @@ int main()
             if (strcmp(login, loginsalvo) != 0 && strcmp(senha, senhasalva) != 0)
             {
                 printf("ACESSO NEGADO!");
-                printf("Usu·rio ou senha errados!");
+                printf("Usu√°rio ou senha errados!");
             }
 
             else
@@ -50,7 +50,7 @@ int main()
         break;
 
     case 2:
-        printf("Crie um us˙ario: ");
+        printf("Crie um us√∫ario: ");
         gets(login1);
 
         printf("Crie uma senha: ");
@@ -63,7 +63,7 @@ int main()
     break;
 
     default:
-        printf("CÛdigo Inv·lido!");
+        printf("C√≥digo Inv√°lido!");
         break;
     }
 
