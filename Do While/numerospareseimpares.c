@@ -10,12 +10,12 @@ int main()
     
     float media_par, media_geral;
 
-    printf("Para parar a execução digite 0.\n");
+    printf("Para parar a execuÃ§Ã£o digite 0.\n");
     printf("\n");
 
     do
     {
-        printf("Digite o %d número: ", contador_geral + 1);
+        printf("Digite o %d nÃºmero: ", contador_geral + 1);
         scanf("%d", &numero);
         
         if (numero > 0)
@@ -39,10 +39,10 @@ int main()
     media_par = soma_par / (float) pares;
     media_geral = soma_geral / (float) contador_geral;
 
-    printf("Quantidade de números pares: %d \n", pares);
-    printf("Quantidade de números ímpares: %d \n", impares);
-    printf("Média números pares: %.1f \n", media_par);
-    printf("Média geral: %.1f \n", media_geral);
+    printf("Quantidade de nÃºmeros pares: %d \n", pares);
+    printf("Quantidade de nÃºmeros Ã­mpares: %d \n", impares);
+    printf("MÃ©dia nÃºmeros pares: %.1f \n", media_par);
+    printf("MÃ©dia geral: %.1f \n", media_geral);
 
     return 0;
 }
