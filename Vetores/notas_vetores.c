@@ -12,7 +12,7 @@ int main ()
 
     printf("Digite as notas: \n");
     for (i = 0; i < 3; i++){
-        printf("%dª nota: ", i + 1);
+        printf("%dÂª nota: ", i + 1);
         scanf("%f", &notas[i]);
 
         soma += notas[i];
@@ -21,10 +21,10 @@ int main ()
     media = soma / 3;
 
     for (i = 0; i < 3; i++){
-        printf("%dª nota: %.1f\n", i + 1, notas[i]);
+        printf("%dÂª nota: %.1f\n", i + 1, notas[i]);
     }
 
-    printf("Média: %.1f", media);
+    printf("MÃ©dia: %.1f", media);
 
     return 0;
 }
