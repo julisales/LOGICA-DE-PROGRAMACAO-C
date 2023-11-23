@@ -14,7 +14,7 @@ int main()
 
     for (i = 0; i < 5; i++)
     {
-        printf("Digite %dº número: ", i + 1);
+        printf("Digite %dÂº nÃºmero: ", i + 1);
         scanf("%d", &numeros[i]);
 
         if (numeros[i] % 2 == 0)
@@ -50,16 +50,16 @@ int main()
 
     system ("cls || clear");
 
-    printf("A quantidade de números pares: %d \n", pares);
-    printf("A quantidade de números ímpares: %d \n", impares);
-    printf("A quantidade de números positivos: %d \n", positivos);
-    printf("A quantidade de números negativos: %d \n", negativos);
-    printf("A quantidade de números inseridos: %d \n", contador_geral);
-    printf("A média de números pares: %.1f \n", media_pares);
-    printf("A média de números ímpares: %.1f \n", media_impares);
-    printf("A média de todos os números inseridos: %.1f \n \n", media_geral);
+    printf("A quantidade de nÃºmeros pares: %d \n", pares);
+    printf("A quantidade de nÃºmeros Ã­mpares: %d \n", impares);
+    printf("A quantidade de nÃºmeros positivos: %d \n", positivos);
+    printf("A quantidade de nÃºmeros negativos: %d \n", negativos);
+    printf("A quantidade de nÃºmeros inseridos: %d \n", contador_geral);
+    printf("A mÃ©dia de nÃºmeros pares: %.1f \n", media_pares);
+    printf("A mÃ©dia de nÃºmeros Ã­mpares: %.1f \n", media_impares);
+    printf("A mÃ©dia de todos os nÃºmeros inseridos: %.1f \n \n", media_geral);
 
-    printf("Mostrar os números lidos na ordem inversa: \n");
+    printf("Mostrar os nÃºmeros lidos na ordem inversa: \n");
 
     for (i = 4; i >= 0; i--){
         printf("%d \n", numeros[i]);
