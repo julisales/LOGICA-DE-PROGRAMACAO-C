@@ -18,7 +18,7 @@ int main()
 
         for (j = 0; j < 2; j++)
         {
-            printf("Digite a %dº nota: ", j + 1);
+            printf("Digite a %dÂº nota: ", j + 1);
             scanf("%f", &notas[i][j]);
 
             soma += notas[i][j];
@@ -30,17 +30,17 @@ int main()
         fflush(stdin);
     }
 
-    printf("\nInformações: \n");
+    printf("\nInformaÃ§Ãµes: \n");
 
     for (i = 0; i < 3; i++)
     {
         printf("\nDisciplina: %s \n", disciplinas[i]);
         for (j = 0; j < 2; j++)
         {
-            printf("%dº nota: %.1f \n", j + 1, notas[i][j]);
+            printf("%dÂº nota: %.1f \n", j + 1, notas[i][j]);
         }
 
-        printf("Média: %.1f \n", media[i]);
+        printf("MÃ©dia: %.1f \n", media[i]);
     }
 
     return 0;
