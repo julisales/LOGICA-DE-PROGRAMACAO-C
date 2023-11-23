@@ -8,7 +8,7 @@ int main()
 
     int num, i;
 
-    printf("Digite um número: ");
+    printf("Digite um nÃºmero: ");
     scanf("%d", &num);
 
     system("cls || clear");
