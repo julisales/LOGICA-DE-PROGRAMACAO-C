@@ -9,26 +9,26 @@ int main()
 
     int tempo, ano, codigo, idade;
 
-    printf("Digite seu cÛdigo: ");
+    printf("Digite seu c√≥digo: ");
     scanf("%d", &codigo);
 
     printf("Digite seu ano de nascimento: ");
     scanf("%d", &ano);
 
-    printf("Digite h· quanto tempo vocÍ trabalha (anos): ");
+    printf("Digite h√° quanto tempo voc√™ trabalha (anos): ");
     scanf("%d", &tempo);
 
     idade = 2023 - ano;
 
     system("cls || clear");
 
-    printf("CÛdigo: %d \n", codigo);
+    printf("C√≥digo: %d \n", codigo);
     printf("Tempo de trabalho: %d \n", tempo);
     printf("Idade: %d \n", idade);
     printf("\n");
 
     printf("---------------------------------------------------------------\n");
-    printf("SITUA«√O: \n");
+    printf("SITUA√á√ÉO: \n");
 
     if (idade >= 65 || tempo >= 30)
     {
@@ -38,7 +38,7 @@ int main()
     else
     {
         system("color 4");
-        printf("N√O REQUERER APOSENTADORIA!");
+        printf("N√ÉO REQUERER APOSENTADORIA!");
     }
     
     return 0;
